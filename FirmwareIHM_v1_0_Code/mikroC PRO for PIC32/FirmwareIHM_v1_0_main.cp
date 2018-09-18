@@ -1,5 +1,5 @@
-#line 1 "C:/Users/paulo.santos/Desktop/Versões_2018 - Cópia/FirmwareIHM_v1_0/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_main.c"
-#line 1 "c:/users/paulo.santos/desktop/versões_2018 - cópia/firmwareihm_v1_0/firmwareihm_v1_0_code/mikroc pro for pic32/firmwareihm_v1_0_objects.h"
+#line 1 "C:/Users/paulo.santos/lnls-elp/udc-ihm/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_main.c"
+#line 1 "c:/users/paulo.santos/lnls-elp/udc-ihm/firmwareihm_v1_0_code/mikroc pro for pic32/firmwareihm_v1_0_objects.h"
 typedef enum {_pbsClearSector, _pbsFillSector} TProgressBarSector;
 
 typedef enum {_taLeft, _taCenter, _taRight} TTextAlign;
@@ -713,7 +713,7 @@ void Start_TP();
 void Process_TP_Press(unsigned int X, unsigned int Y);
 void Process_TP_Up(unsigned int X, unsigned int Y);
 void Process_TP_Down(unsigned int X, unsigned int Y);
-#line 1 "c:/users/paulo.santos/desktop/versões_2018 - cópia/firmwareihm_v1_0/firmwareihm_v1_0_code/mikroc pro for pic32/funcoesihm.h"
+#line 1 "c:/users/paulo.santos/lnls-elp/udc-ihm/firmwareihm_v1_0_code/mikroc pro for pic32/funcoesihm.h"
 
 
 
@@ -721,9 +721,9 @@ void Process_TP_Down(unsigned int X, unsigned int Y);
 void FirmwareVersaoIHM();
 void InicializaParametros();
 int Password(int val);
-#line 1 "c:/users/paulo.santos/desktop/versões_2018 - cópia/firmwareihm_v1_0/firmwareihm_v1_0_code/mikroc pro for pic32/funcoesihm.c"
-#line 1 "c:/users/paulo.santos/desktop/versões_2018 - cópia/firmwareihm_v1_0/firmwareihm_v1_0_code/mikroc pro for pic32/funcoesihm.h"
-#line 14 "c:/users/paulo.santos/desktop/versões_2018 - cópia/firmwareihm_v1_0/firmwareihm_v1_0_code/mikroc pro for pic32/funcoesihm.c"
+#line 1 "c:/users/paulo.santos/lnls-elp/udc-ihm/firmwareihm_v1_0_code/mikroc pro for pic32/funcoesihm.c"
+#line 1 "c:/users/paulo.santos/lnls-elp/udc-ihm/firmwareihm_v1_0_code/mikroc pro for pic32/funcoesihm.h"
+#line 14 "c:/users/paulo.santos/lnls-elp/udc-ihm/firmwareihm_v1_0_code/mikroc pro for pic32/funcoesihm.c"
 void FirmwareVersaoIHM(){
  strcpy(Label37.Caption,"v1.0");
  DrawScreen(&ScreenInicializacao);
@@ -834,7 +834,7 @@ int Password(int val){
  }
  }
 }
-#line 23 "C:/Users/paulo.santos/Desktop/Versões_2018 - Cópia/FirmwareIHM_v1_0/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_main.c"
+#line 23 "C:/Users/paulo.santos/lnls-elp/udc-ihm/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_main.c"
 void main() {
 
  Start_TP();

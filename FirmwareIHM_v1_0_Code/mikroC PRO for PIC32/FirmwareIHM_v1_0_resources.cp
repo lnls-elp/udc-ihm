@@ -1,4 +1,4 @@
-#line 1 "C:/Users/paulo.santos/Desktop/Versões_2018 - Cópia/FirmwareIHM_v1_0/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_resources.c"
+#line 1 "C:/Users/paulo.santos/lnls-elp/udc-ihm/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_resources.c"
 const code char Tahoma12x16_Regular[] = {
  0x00,
  0x00,

@@ -1,5 +1,5 @@
-#line 1 "C:/Users/paulo.santos/Desktop/Versões_2018 - Cópia/FirmwareIHM_v1_0/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_driver.c"
-#line 1 "c:/users/paulo.santos/desktop/versões_2018 - cópia/firmwareihm_v1_0/firmwareihm_v1_0_code/mikroc pro for pic32/firmwareihm_v1_0_objects.h"
+#line 1 "C:/Users/paulo.santos/lnls-elp/udc-ihm/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_driver.c"
+#line 1 "c:/users/paulo.santos/lnls-elp/udc-ihm/firmwareihm_v1_0_code/mikroc pro for pic32/firmwareihm_v1_0_objects.h"
 typedef enum {_pbsClearSector, _pbsFillSector} TProgressBarSector;
 
 typedef enum {_taLeft, _taCenter, _taRight} TTextAlign;
@@ -713,7 +713,7 @@ void Start_TP();
 void Process_TP_Press(unsigned int X, unsigned int Y);
 void Process_TP_Up(unsigned int X, unsigned int Y);
 void Process_TP_Down(unsigned int X, unsigned int Y);
-#line 1 "c:/users/paulo.santos/desktop/versões_2018 - cópia/firmwareihm_v1_0/firmwareihm_v1_0_code/mikroc pro for pic32/firmwareihm_v1_0_resources.h"
+#line 1 "c:/users/paulo.santos/lnls-elp/udc-ihm/firmwareihm_v1_0_code/mikroc pro for pic32/firmwareihm_v1_0_resources.h"
 const code char Tahoma12x16_Regular[];
 const code char Tahoma14x16_Bold[];
 const code char Tahoma15x18_Regular[];
@@ -724,7 +724,7 @@ const code char Tahoma26x33_Regular[];
 const code char Tahoma11x13_Regular[];
 const code char Tahoma12x14_Regular[];
 #line 1 "c:/users/paulo.santos/documents/mikroelektronika/mikroc pro for pic32/include/built_in.h"
-#line 7 "C:/Users/paulo.santos/Desktop/Versões_2018 - Cópia/FirmwareIHM_v1_0/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_driver.c"
+#line 7 "C:/Users/paulo.santos/lnls-elp/udc-ihm/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_driver.c"
 char TFT_DataPort at LATE;
 sbit TFT_RST at LATC1_bit;
 sbit TFT_BLED at LATD2_bit;
@@ -5103,7 +5103,7 @@ static char IsInsideObject (unsigned int X, unsigned int Y, unsigned int Left, u
  else
  return 0;
 }
-#line 4399 "C:/Users/paulo.santos/Desktop/Versões_2018 - Cópia/FirmwareIHM_v1_0/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_driver.c"
+#line 4399 "C:/Users/paulo.santos/lnls-elp/udc-ihm/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_driver.c"
 void DrawRoundButton(TButton_Round *Around_button) {
 unsigned int ALeft, ATop;
  if (Around_button->Visible != 0) {

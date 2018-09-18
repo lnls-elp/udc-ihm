@@ -1,5 +1,5 @@
-#line 1 "C:/Users/paulo.santos/Desktop/Versões_2018 - Cópia/FirmwareIHM_v1_0/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_events_code.c"
-#line 1 "c:/users/paulo.santos/desktop/versões_2018 - cópia/firmwareihm_v1_0/firmwareihm_v1_0_code/mikroc pro for pic32/firmwareihm_v1_0_objects.h"
+#line 1 "C:/Users/paulo.santos/lnls-elp/udc-ihm/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_events_code.c"
+#line 1 "c:/users/paulo.santos/lnls-elp/udc-ihm/firmwareihm_v1_0_code/mikroc pro for pic32/firmwareihm_v1_0_objects.h"
 typedef enum {_pbsClearSector, _pbsFillSector} TProgressBarSector;
 
 typedef enum {_taLeft, _taCenter, _taRight} TTextAlign;
@@ -713,7 +713,7 @@ void Start_TP();
 void Process_TP_Press(unsigned int X, unsigned int Y);
 void Process_TP_Up(unsigned int X, unsigned int Y);
 void Process_TP_Down(unsigned int X, unsigned int Y);
-#line 1 "c:/users/paulo.santos/desktop/versões_2018 - cópia/firmwareihm_v1_0/firmwareihm_v1_0_code/mikroc pro for pic32/firmwareihm_v1_0_resources.h"
+#line 1 "c:/users/paulo.santos/lnls-elp/udc-ihm/firmwareihm_v1_0_code/mikroc pro for pic32/firmwareihm_v1_0_resources.h"
 const code char Tahoma12x16_Regular[];
 const code char Tahoma14x16_Bold[];
 const code char Tahoma15x18_Regular[];
@@ -723,7 +723,7 @@ const code char Tahoma25x25_Bold[];
 const code char Tahoma26x33_Regular[];
 const code char Tahoma11x13_Regular[];
 const code char Tahoma12x14_Regular[];
-#line 1 "c:/users/paulo.santos/desktop/versões_2018 - cópia/firmwareihm_v1_0/firmwareihm_v1_0_code/mikroc pro for pic32/funcoesihm.h"
+#line 1 "c:/users/paulo.santos/lnls-elp/udc-ihm/firmwareihm_v1_0_code/mikroc pro for pic32/funcoesihm.h"
 
 
 
@@ -731,7 +731,7 @@ const code char Tahoma12x14_Regular[];
 void FirmwareVersaoIHM();
 void InicializaParametros();
 int Password(int val);
-#line 12 "C:/Users/paulo.santos/Desktop/Versões_2018 - Cópia/FirmwareIHM_v1_0/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_events_code.c"
+#line 12 "C:/Users/paulo.santos/lnls-elp/udc-ihm/FirmwareIHM_v1_0_Code/mikroC PRO for PIC32/FirmwareIHM_v1_0_events_code.c"
 void malhaAberta() {
  if ((CheckBox1.Checked == 0)&&(CheckBox2.Checked == 0)){
  strcpy(Label26.Caption,"----------");
