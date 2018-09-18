@@ -130,12 +130,12 @@ void modoPCHost() {
              CheckBox3.Checked = 0;
              CheckBox4.Checked = 0;
              
-             strcpy(Label43.Caption,"PC-Host");
-             strcpy(Label44.Caption,"PC-Host");
-             strcpy(Label48.Caption,"PC-Host");
-             strcpy(Label52.Caption,"PC-Host");
-             strcpy(Label56.Caption,"PC-Host");
-             strcpy(Label60.Caption,"PC-Host");
+             strcpy(Label43.Caption,"PC Host");
+             strcpy(Label44.Caption,"PC Host");
+             strcpy(Label48.Caption,"PC Host");
+             strcpy(Label52.Caption,"PC Host");
+             strcpy(Label56.Caption,"PC Host");
+             strcpy(Label60.Caption,"PC Host");
              
              //ButtonRound8.Transparent = 0;
              DrawScreen(&ScreenOperando);
