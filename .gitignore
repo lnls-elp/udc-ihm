@@ -2,3 +2,5 @@
 *.dbg
 *.log
 *.asm
+*.lst
+*.hex
